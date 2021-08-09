@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('fs'); 
+const path = require('path'); 
 const prettier = require('prettier');
 const messages = require('../build/messages.json');
 
@@ -28,3 +28,4 @@ files.forEach(file => {
 
   fs.writeFileSync(path.resolve(dest, file), json);
 });
+ 
